@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.orderForm {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.orderForm label {
+	margin-top: 10px;
+}
+.orderForm input,
+.orderForm select {
+	width: 150px;
+}
